@@ -28,8 +28,8 @@ class Customers{
        return "Saldo simpanan anda adalah sebesar : Rp.".$this->saldoSimpanan;
     }
     // Membuat method untuk mengambil seluruh info dari customer
-    public function getInfo(){
-        return "Nama : " .$this->nama ."<br>" ."Alamat : ". $this->alamat ."<br>"."Saldo : ". $this->saldoSimpanan ."<br>"."E-mail : " .$this->email. "<br>"."No tlp : " .$this->noTlp;
+    public function getLabel(){
+        return "Nama : " .$this->nama ."<br>" ."Alamat : ". $this->alamat;
     }
 }
 
@@ -45,4 +45,4 @@ echo "Hanya mengganti value property nama sisanya menggunakan nilai value defaul
 var_dump($costumer1); 
 echo '<br> <br>';
 echo "Mengganti seluruh value property karena seluruh parameter yang dibutuhkan oleh construct terisi atau terpenuhi => <br> <br>";
-echo $customer2->getInfo();
+echo $customer2->getLabel();
