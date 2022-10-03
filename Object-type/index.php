@@ -1,6 +1,5 @@
 <?php
 
-use Customers as GlobalCustomers;
 
 class Customers{
     public $nama,$alamat,$saldoSimpanan,$email,$noTlp;
