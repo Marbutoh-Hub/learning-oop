@@ -64,7 +64,7 @@ class Company extends Customers{
 }
 
 // Melakukan instance object dari class individu
-$customer1 = new Individu('Ahmad','Jl.Sawah Besar',120444,'Ahmadjaelani@gmail.com','08987635527633','37466-654',[]);
+$customer1 = new Individu('Ahmad','Jl.Sawah Besar',120444,'Ahmadjaelani@gmail.com','08987635527633','37466-654','',[]);
 // Melakukan instance object dari class company
 $customer2 = new Company('Dinda','Jl.Masjid',120323,'Dinda@gmail.com','08243435527633','',['232332-4232','6794387-583']);
 
