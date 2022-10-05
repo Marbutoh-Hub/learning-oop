@@ -37,9 +37,9 @@ class Customers{
 class Individu extends Customers{
     public $tfindividu;
 
-    // membuat construct untuk kela Company construct ini akan dipanggil otomatis ketika class company diinstance
+    // membuat construct untuk kelas Company construct ini akan dipanggil otomatis ketika class company diinstance
     public function __construct($nama = 'Default Name', $alamat  = 'Default Alamat', $saldoSimpanan  = 0, $email  = 'Default E-mail', $noTlp  = 'Default No Tlp', $tfindividu = 'Def No Rek'){
-         //  ketika kita menggunakan keyword parent:: maka secara otomatis method parentnya akan di panggil atau ini disebut denga overiding
+         // ketika kita menggunakan keyword parent:: maka secara otomatis method parentnya akan di panggil atau ini disebut denga overiding
         parent::__construct($nama ,$alamat ,$saldoSimpanan, $email, $noTlp);
         $this->tfindividu = $tfindividu;
     }
