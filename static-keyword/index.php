@@ -31,8 +31,6 @@ echo "<br>";
 echo "<br>";
 echo "<hr>";
 
-// echo "class dengan property static nilai propertinya akan selalu tetap ketika dipanggil berkali kali atau di instansiasi berkali kali karna property tersebut menempel pada class bukan pada object";
-
 class cekUsername{
 
     public $inputUname = 1;
